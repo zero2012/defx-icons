@@ -172,10 +172,10 @@ let s:pattern_matches = extend({
 
 function! defx_icons#get() abort
   return {
-        \ 'extensions': s:extensions,
-        \ 'exact_matches': s:exact_matches,
+        \ 'extensions': "",
+        \ 'exact_matches': "",
         \ 'exact_dir_matches': get(g:, 'defx_icon_exact_dir_matches', {}),
-        \ 'pattern_matches': s:pattern_matches,
+        \ 'pattern_matches': "",
         \ 'enable_syntax_highlight': s:enable_syntax_highlight,
         \ 'column_length': s:column_length,
         \ 'parent_icon': s:parent_icon,
